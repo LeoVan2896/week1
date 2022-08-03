@@ -8,7 +8,7 @@ public class GradingExercise {
         Scanner object = new Scanner(System.in);
         //to input the grade
         System.out.println("Enter the grade: ");
-        int grade = object.nextInt();
+        double grade = object.nextDouble();
 
 
         if (grade >= 90) {
